@@ -58,7 +58,7 @@ class _HomePageState extends State<HomePage> {
     setState(() {
       this._completed = false;
       this._busy = true;
-      this._color = Colors.red;
+      this._color = Colors.deepPurple;
     });
 
     return new Future.delayed(const Duration(seconds: 1), () {
